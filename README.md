@@ -53,6 +53,16 @@ The screen coordinates (`c1`, `c2`, `c3`, `c4`) represent the positions of the c
 * Grey: RGB(51, 51, 51)
 * Black: RGB(0, 0, 0)
 
+### Pixel Color Detection 
+
+The line `pyautogui.pixel(217, 534)[0] == 51` in the code is responsible for detecting the colour of a specific pixel on the screen. This is achieved using the pyautogui.pixel() function, which returns the RGB color values of the pixel at the specified coordinates.
+
+217 and 534 are the X and Y coordinates, respectively, of the pixel being checked.
+`[0]` indicates that we are retrieving the red component of the RGB colour values, other arguments in this function are `[1] `and `[2]` which are Green and Blue respectively.
+The expression `== 51` checks if the red component of the pixel colour is equal to 51. 
+
+
+
 The bot uses pixel colour detection to identify the game's current state based on the colour of specific pixels.
 
 ### Main Loop
