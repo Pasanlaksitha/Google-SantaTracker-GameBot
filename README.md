@@ -78,9 +78,15 @@ If the bot is not working as expected, consider the following:
 * Ensure that the screen coordinates are correctly set for your display.
 * Check for any updates or changes in the Google Santa Tracker game that may affect pixel colour detection.
 
+## Extra 
+
+### What is `imagedetect.py`
+
+Well when I first started to write this program, I didn't notice that there is only one key comes in each row its not shuffling, so before I realised that, I tried a script to screenshot each arrow and identify them on the screen when they closed and pass the circle initiate the keypress i wrote only a half and give up script because its useless
+
 ## Note 
 
-### BUG
+###  ___BUG!___
 When I was testing this game, I noticed that there was a problem with the game
 that is, when a key circle closes to the pressing zone the game doesn't concern if a wrong arrow key is pushed. If we push with the correct key, that means once we press all 4 keys at once each time a circle passes, we score a point. 
 
