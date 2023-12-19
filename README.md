@@ -1,5 +1,5 @@
 # Google Santa Tracker Bot Documentation
-👇 Game you need to beat highscore
+👇 Game you need to beat Highscore <br>
 https://santatracker.google.com/intl/en/wrapbattle.html
 ## Introduction
 This documentation provides information on how to use and understand the Google Santa Tracker Bot. The bot is designed to play the Google Santa Tracker game by automatically navigating through the game's interface using pixel colour detection and simulated keyboard inputs.
